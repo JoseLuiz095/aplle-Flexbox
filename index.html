@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplle :: Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="apple.svg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 30 30">
+                <path
+                    d="M25.565,9.785c-0.123,0.077-3.051,1.702-3.051,5.305c0.138,4.109,3.695,5.55,3.756,5.55 c-0.061,0.077-0.537,1.963-1.947,3.94C23.204,26.283,21.962,28,20.076,28c-1.794,0-2.438-1.135-4.508-1.135 c-2.223,0-2.852,1.135-4.554,1.135c-1.886,0-3.22-1.809-4.4-3.496c-1.533-2.208-2.836-5.673-2.882-9 c-0.031-1.763,0.307-3.496,1.165-4.968c1.211-2.055,3.373-3.45,5.734-3.496c1.809-0.061,3.419,1.242,4.523,1.242 c1.058,0,3.036-1.242,5.274-1.242C21.394,7.041,23.97,7.332,25.565,9.785z M15.001,6.688c-0.322-1.61,0.567-3.22,1.395-4.247 c1.058-1.242,2.729-2.085,4.17-2.085c0.092,1.61-0.491,3.189-1.533,4.339C18.098,5.937,16.488,6.872,15.001,6.688z">
+                </path>
+            </svg>
+        </div>
+        <div class="links">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 50 50">
+                <path
+                    d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z">
+                </path>
+            </svg>
+            <img width="25" height="25" src="https://img.icons8.com/ios/50/shopping-bag--v1.png"
+                alt="shopping-bag--v1" />
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 30 30">
+                <path
+                    d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z">
+                </path>
+            </svg>
+        </div>
+    </div>
+    <div class="main">
+        <div class="esquerda">
+            <h1><span class="escuro">Loja.</span> O melhor jeito de </h1>
+            <h1>comprar o que você ama.</h1>
+        </div>
+        <div class="direita">
+            <div class="card">
+                <img src="main-mulher.jpg"  width="35px" height="35px" alt="mulher da Apple">
+                <div class="text-card">
+                    <p>Precisa de ajuda para comprar?</p>
+                    <a href="#">Fale com um especialista</a>
+                </div>
+            </div>
+            <div class="card">
+                <svg viewBox="0 0 35 35"
+                    class="as-svgicon as-svgicon-applestore as-svgicon-base as-svgicon-applestorebase" role="img"
+                    aria-hidden="true"  width="35px" height="35px">
+                    <path fill="none" d="M0 0h35v35H0z"></path>
+                    <path
+                        d="M17.5 32.217a1.136 1.136 0 01-1-.576l-1.812-2.525c-.053-.087-.1-.116-.156-.116H10.5A4.5 4.5 0 016 24.5V10.518a4.5 4.5 0 014.5-4.5h14a4.5 4.5 0 014.5 4.5V24.5a4.5 4.5 0 01-4.5 4.5h-4.036a.149.149 0 00-.129.074l-1.867 2.609a1.108 1.108 0 01-.968.534zM10.5 7A3.519 3.519 0 007 10.518V24.5a3.5 3.5 0 003.5 3.5h4.036a1.151 1.151 0 011 .576l1.808 2.524c.128.213.211.17.284.042l1.868-2.61a1.125 1.125 0 01.968-.532H24.5a3.5 3.5 0 003.5-3.5V10.518A3.519 3.519 0 0024.5 7z">
+                    </path>
+                    <path
+                        d="M21.35 14.635a2.326 2.326 0 00-1.078 1.94 2.215 2.215 0 001.353 2.051 4.733 4.733 0 01-.693 1.444c-.429.617-.9 1.246-1.584 1.246s-.858-.408-1.661-.408c-.77 0-1.045.419-1.672.419s-1.078-.573-1.584-1.29a6.312 6.312 0 01-1.056-3.363 2.719 2.719 0 012.541-3.021c.682 0 1.232.441 1.65.441s1.023-.463 1.782-.463a2.348 2.348 0 012.002 1.004zm-3.729-1.114c-.055 0-.1-.011-.143-.011 0-.033-.011-.11-.011-.187a2.26 2.26 0 01.561-1.378 2.19 2.19 0 011.485-.772 1.074 1.074 0 01.011.2A2.329 2.329 0 0119 12.794a1.967 1.967 0 01-1.379.727z">
+                    </path>
+                </svg>
+                <div class="text-card">
+                    <p>Visite uma Apple Store</p>
+                    <a href="#">Procure uma loja perto de você > </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="carocel">
+
+    </div>
+    <div class="footer">
+        <hr>
+        <small>
+            Copyright © 2023 Apple Inc. Todos os direitos reservados. Apple Computer Brasil Ltda. CNPJ:
+            00.623.904/0003-35
+        </small>
+        <a href="#">Brasil</a>
+    </div>
+
+</body>
+
+</html>
